@@ -12,7 +12,7 @@ const ICON_MAP: Record<string, ElementType<LucideProps>> = {
 
 export default function ContactSection() {
   return (
-    <section className="py-24 px-6 bg-[#070707] border-t border-neutral-900">
+    <section className="py-12 px-6 bg-[#070707] border-t border-neutral-900">
       <div className="max-w-3xl mx-auto text-center">
         <SectionReveal>
           <p className="text-xs tracking-[0.4em] uppercase text-red-700 mb-4 font-sans">
@@ -53,7 +53,7 @@ export default function ContactSection() {
 
         {/* Footer */}
         <SectionReveal delay={0.4}>
-          <p className="mt-20 text-neutral-700 text-xs font-mono tracking-widest">
+          <p className="mt-10 text-neutral-700 text-xs font-mono tracking-widest">
             © {new Date().getFullYear()} Алексей Ефремов
           </p>
         </SectionReveal>
